@@ -1,14 +1,14 @@
 /* From Uiverse.io by PriyanshuGupta28 */ 
 .spinner {
   position: absolute;
-  width: 5px;
-  height: 5px;
+  width: 9px;
+  height: 9px;
 }
 
 .spinner div {
   position: absolute;
-  width: 50%;
-  height: 150%;
+  width: 20%;
+  height: 50%;
   background: #000000;
   transform: rotate(calc(var(--rotation) * 1deg)) translate(0, calc(var(--translation) * 1%));
   animation: spinner-fzua35 1s calc(var(--delay) * 1s) infinite ease;
